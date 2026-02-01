@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THE_A/S_TECHNICIAN</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
 
     <style>
+        /* Top Banner */
+.top-banner {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #00eaff;
+    text-align: center;
+    padding: 15px 0;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+}
+
+/* Push content down so banner doesn’t overlap */
+body {
+    padding-top: 70px;
+}
         body {
             margin: 0;
             height: 100vh;
@@ -53,6 +73,10 @@
 </head>
 <body>
 
+    <div class="top-banner">
+    github.com/<strong>numark410</strong>
+</div>
+
     <div class="container">
         <h1>NB-ONLINE TECHNICIAN MANUAL</h1>
 
@@ -72,4 +96,5 @@
 </body>
 
 </html>
+
 
